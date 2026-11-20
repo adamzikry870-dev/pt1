@@ -34,8 +34,8 @@ ob_start();
                     <input name="staff_num" id="staff_num" type="text" class="form-control" placeholder="Enter Staff ID" value="" required>
                 </div>
                 <div class="col-md-3">
-                    <label for="staff_num" class="form-label">Staff Name <span class="text-danger" aria-hidden="true">*</span></label>
-                    <input name="staff_num" id="staff_num" type="text" class="form-control" placeholder="Enter Staff Name" value="" required>
+                    <label for="staff_name" class="form-label">Staff Name <span class="text-danger" aria-hidden="true">*</span></label>
+                    <input name="staff_name" id="staff_name" type="text" class="form-control" placeholder="Enter Staff Name" value="" required>
                 </div>
  
                 <div class="col-md-3">
@@ -47,7 +47,8 @@ ob_start();
                     <label for="staff_email" class="form-label">Email Address <span class="text-danger" aria-hidden="true">*</span></label>
                     <input name="staff_email" id="staff_email" type="email" class="form-control" placeholder="Enter Email Address" value="" required>
                 </div>
-             
+
+            </div>
             <hr class="mt-4 mb-3">
              
             <div>

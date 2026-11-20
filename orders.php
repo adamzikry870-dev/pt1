@@ -30,24 +30,25 @@ ob_start();
         <form action="" method="post" class="needs-validation" novalidate>
             <div class="row g-3">
                 <div class="col-md-3">
-                    <label for="odate" class="form-label">Order Date<span class="text-danger" aria-hidden="true">*</span></label>
-                    <input name="order_date" id="odate" type="text" class="form-control" placeholder="Enter Customer ID" value="" required>
+                    <label for="order_date" class="form-label">Order Date<span class="text-danger" aria-hidden="true">*</span></label>
+                    <input name="order_date" id="order_date" type="date" class="form-control" placeholder="Enter Order Date" value="" required>
                 </div>
 
 
                 <div class="col-md-3">
-                    <label for="staff_num">Staff ID <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="staff_num" class="form-label">Staff ID <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="staff_num" id="staff_num" class="form-select" required>
                         <option value="S001">S001</option>
                     </select>
                 </div>
 
                 <div class="col-md-3">
-                    <label for="customer_num">Customer ID <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="customer_num" class="form-label">Customer ID <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="customer_num" id="customer_num" class="form-select" required>
                         <option value="C001">C001</option>
                     </select>
                 </div>
+            </div>
              
             <hr class="mt-4 mb-3">
              
@@ -85,7 +86,7 @@ ob_start();
             <table class="table table-striped table-hover">
                 <thead class="table-secondary">
                     <tr>
-                        <th>Order ID</th>
+                        <th>Order No.</th>
                         <th>Order Date</th>
                         <th>Staff ID</th>
                         <th>Customer ID</th>
@@ -94,7 +95,7 @@ ob_start();
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Or001</td>
+                        <td>1</td>
                         <td>2026-10-14</td>
                         <td>S001</td>
                         <td>C001</td>
@@ -108,7 +109,7 @@ ob_start();
                             <a href="#" class="btn btn-sm btn-danger">
                                 <i class="bi bi-trash"></i>
                             </a>
-                            <a href="order_details.php" class="btn btn-sm btn-info text-white" title="Order details">
+                            <a href="orderdetails.php" class="btn btn-sm btn-info text-white" title="Order details">
                                 <i class="bi bi-list"></i>
                             </a>
                             <a href="invoice.php" class="btn btn-sm btn-success" title="View invoice">

@@ -7,7 +7,7 @@ ob_start();
         <div class="row align-items-center">
             <div class="col">
                 <h2 class="mb-1">Invoice</h2>
-                <p class="text-muted mb-0">Order #Or001</p>
+                <p class="text-muted mb-0">Order #1</p>
             </div>
             <div class="col-auto">
                 <button type="button" class="btn btn-primary"  onclick="printPage()"><i class="bi bi-printer me-1"></i>Print</button>
@@ -24,7 +24,7 @@ ob_start();
                 <p class="text-muted mb-0">Sales Invoice</p>
             </div>
             <div class="col-md-6 text-md-end">
-                <strong>Invoice No.: </strong>Or001<br>
+                <strong>Invoice No.: </strong>1<br>
                 <strong>Date: </strong>2026-10-14
             </div>
         </div>
@@ -65,7 +65,7 @@ ob_start();
                 <tfoot><tr><th colspan="4" class="text-end">Grand Total</th><th class="text-end">$149.99</th></tr></tfoot>
             </table>
         </div>
-        <a href="order_details.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Details</a>
+        <a href="orderdetails.php" class="btn btn-secondary"><i class="bi bi-arrow-left me-1"></i>Back to Details</a>
     </div>
 </div>
 
@@ -74,6 +74,8 @@ ob_start();
     @media print {
     .btn, #myBurger, #mySidebar {
         display: none !important;
+        .card { box-shadow: none !important; border: 0 !important; }
+        .card-body { border: 0 !important; }
     }
 }
 </style>

@@ -5,7 +5,7 @@ ob_start();
 <div class="card shadow border-0 border-start border-5 border-primary mb-4">
     <div class="card-body">
         <h2 class="mb-1">Order Details</h2>
-        <p class="text-muted mb-0">Order #Or001 for Adam</p>
+        <p class="text-muted mb-0">Order #1 for Adam</p>
     </div>
 </div>
  
@@ -24,7 +24,7 @@ ob_start();
         <h5 class="mb-3"><i class="bi bi-cart-plus text-primary me-2"></i>Add Product</h5>
         <hr>
         <form action="" method="post" class="needs-validation" novalidate>
-            <input type="hidden" name="order_num" value="O001">
+            <input type="hidden" name="order_num" value="1">
             <div class="row g-3">
                 <div class="col-md-8">
                     <label for="product_num" class="form-label">Product <span class="text-danger" aria-hidden="true">*</span></label>

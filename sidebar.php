@@ -12,7 +12,7 @@
           <hr>                  
           <ul class="mynav nav nav-pills flex-column">
             <li class="nav-item mb-3 mt-2">
-              <a href="http://lrgs.ftsm.ukm.my/users/a223715/Web-Development-Project/pt1/home.php" class="text-decoration-none text-white">
+              <a href="home.php" class="text-decoration-none text-white">
                 <i class="bi bi-house-fill me-2"></i>
                 Home
               </a>
@@ -24,27 +24,27 @@
               </a>
             </li>
             <li class="nav-item mb-3">
-                <a href="http://lrgs.ftsm.ukm.my/users/a223715/Web-Development-Project/pt1/products.php" class="text-decoration-none text-white">
-                    <i class="bi bi-keyboard-fill"></i>
+                <a href="products.php" class="text-decoration-none text-white">
+                    <i class="bi bi-keyboard-fill me-2"></i>
                     Ergonomic Keyboard
                 </a>
             </li>
             <li class="nav-item mb-3">
-                <a href="http://lrgs.ftsm.ukm.my/users/a223715/web-Development-Project/pt1/staffs.php" class="text-decoration-none text-white">
-                    <i class="bi bi-person-vcard-fill"></i>
+                <a href="staffs.php" class="text-decoration-none text-white">
+                    <i class="bi bi-person-vcard-fill me-2"></i>
                     Staffs
                 </a>
             </li>
             <li class="nav-item mb-3">
-                <a href="http://lrgs.ftsm.ukm.my/users/a223715/Web-Development-Project/pt1/customer.php" class="text-decoration-none text-white">
+                <a href="customers.php" class="text-decoration-none text-white">
                     <i class="bi bi-people-fill me-2"></i>
                     Customers
                 </a>
             </li>
             <li class="nav-item mb-3">
-                <a href="http://lrgs.ftsm.ukm.my/users/a223715/Web-Development-Project/pt1/orders.php" class="text-decoration-none text-white">
-                    <i class="bi bi-bag-dash-fill"></i>
-                    Oders
+                <a href="orders.php" class="text-decoration-none text-white">
+                    <i class="bi bi-bag-dash-fill me-2"></i>
+                    Orders
                 </a>
             </li>
           </ul>

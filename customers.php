@@ -41,9 +41,9 @@ ob_start();
                 <div class="col-md-3">
                     <label for="customer_gender" class="form-label">Gender <span class="text-danger" aria-hidden="true">*</span></label>
                     <select name="customer_gender" id="customer_gender" class="form-select" required>
-                        <option value="">Select Brand</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
+                        <option value="">Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
                     </select>
                 </div>
  
@@ -57,6 +57,7 @@ ob_start();
                     <input name="register_date" id="register_date" type="date" class="form-control" placeholder="Enter Registration Date" value="" required>
                 </div>
              
+            </div>
             <hr class="mt-4 mb-3">
              
             <div>
@@ -121,7 +122,7 @@ ob_start();
                         </td>
                     </tr>
                     <tr>
-                        <td colspan="5" class="text-center">No products found</td>
+                        <td colspan="6" class="text-center">No products found</td>
                     </tr>
                 </tbody>
             </table>
